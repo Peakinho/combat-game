@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is an example
+    of a meta description.">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>page</title>
+    <!-- <link href="https://fonts.googleapis.com.css?family=Acme" rel="stylesheet"> -->
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+
+  </head>
+  <body>
+
+    <div class="header">
+      <p>PLay the greatest RPG ever made!</p>
+      <h2>Choose your character</h2>
+
+    </div>
+
+    <div class="interface">
+      <a href="#" onclick="GameManager.setGameStart('Pacman')">
+        <img src="img/avatar-player/pacman.jpg" alt="pacman">
+        <div>
+          <h3>Pacman</h3>
+          <p>Pacman is round and fast,
+            also pacs one hell of a bite.</p>
+        </div>
+      </a>
+
+      <a href="#" onclick="GameManager.setGameStart('Luigi')">
+        <img src="img/avatar-player/luigi.jpg" alt="luigi">
+        <div>
+          <h3>Luigi</h3>
+          <p>Luigi is a great great mate of mario and probably a fine cook.</p>
+        </div>
+      </a>
+
+      <a href="#" onclick="GameManager.setGameStart('Zelda')">
+        <img src="img/avatar-player/zelda.jpg" alt="zelda">
+        <div>
+          <h3>Zelda</h3>
+          <p>Zelda is and elf, I think. Carrys a bow and sword.</p>
+        </div>
+      </a>
+
+      <a href="#" onclick="GameManager.setGameStart('Tekkan')">
+        <img src="img/avatar-player/tekkan.jpg" alt="tekkan">
+        <div>
+          <h3>Tekkan</h3>
+          <p>The guy from tekkan. He looks nails so probaby the hardest.</p>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="actions">
+
+    </div>
+
+    <div class="arena">
+
+    </div>
+
+    <div class="enemy">
+
+    </div>
+
+
+
+
+  </body>
+</html>
